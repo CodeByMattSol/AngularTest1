@@ -1,0 +1,24 @@
+.container-data {
+    color: #fff;
+    margin: auto;
+    width: 800px;
+    
+    .product {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background: #333;
+        border: 1px solid #7a7a7a;
+        border-radius: 5px;
+        padding: 5px;
+
+        .product_img {
+            width: 200px;
+        }
+
+        .product-info {
+            width: calc(100% - 300px);
+        }
+    }
+}
